@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(40,50,98);
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+th, td {
+    border: 2.5px solid #939e9f;
+}
+table {
+    background-color: none; 
+    color: white; 
+    width: 95%;
+}
+
+.mainbox {
+    background-image: url(main.png); 
+    width: 70%; 
+    height: 560px;
+}
+
+.numbox {
+    width: 4%; 
+    height: 32px;
+    font-family: Arial, Helvetica, Serif;
+    text-align: center;
+    background-color: #93b8dd;
+	color: black;
+}
+    
+.chanbox {
+    width: 90%;
+    background-color: #1a3666;
+	color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    table {
+        width: 99%;
+    }
+    
+    .mainbox {
+        width: 100%;
+        height: auto;
+    }
+}
